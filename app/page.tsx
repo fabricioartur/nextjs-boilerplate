@@ -23,6 +23,7 @@ export default function Home() {
             fontSize: "clamp(2.2rem, 5vw, 3rem)",
             fontWeight: 600,
             marginBottom: "12px",
+            lineHeight: 1.2,
           }}
         >
           Fabricio Artur
@@ -32,7 +33,7 @@ export default function Home() {
           style={{
             fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
             opacity: 0.85,
-            marginBottom: "12px",
+            marginBottom: "10px",
           }}
         >
           Senior Pre-Sales Engineer &amp; Solutions Architect
@@ -40,24 +41,25 @@ export default function Home() {
 
         <p
           style={{
-            fontSize: "clamp(0.9rem, 2.2vw, 1rem)",
-            opacity: 0.6,
-            marginBottom: "28px",
+            fontSize: "clamp(0.95rem, 2.3vw, 1.05rem)",
+            opacity: 0.65,
+            marginBottom: "22px",
             lineHeight: 1.6,
           }}
         >
-          Cloud &amp; Edge Platforms · Distributed &amp; Real-Time Systems ·
-          Secure Connectivity · AI-Ready Solutions
+          Cloud &amp; Edge Platforms · Distributed &amp; Real-Time Systems · Secure
+          Connectivity · AI-Ready Solutions
         </p>
 
         <p
           style={{
-            fontSize: "0.9rem",
-            opacity: 0.5,
+            fontSize: "clamp(0.9rem, 2vw, 1rem)",
+            opacity: 0.75,
             marginBottom: "32px",
+            fontStyle: "italic",
           }}
         >
-          Portfolio coming soon ✨
+          Building applied AI &amp; systems experiments
         </p>
 
         <a
@@ -66,14 +68,21 @@ export default function Home() {
           rel="noopener noreferrer"
           style={{
             display: "inline-block",
-            padding: "12px 20px",
+            padding: "12px 22px",
             border: "1px solid #fff",
             borderRadius: "6px",
             fontSize: "0.9rem",
             color: "#fff",
             textDecoration: "none",
             opacity: 0.85,
+            transition: "opacity 0.2s ease",
           }}
+          onMouseEnter={(e) =>
+            (e.currentTarget.style.opacity = "1")
+          }
+          onMouseLeave={(e) =>
+            (e.currentTarget.style.opacity = "0.85")
+          }
         >
           Connect on LinkedIn
         </a>
