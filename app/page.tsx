@@ -36,7 +36,7 @@ export default function Home() {
             marginBottom: "10px",
           }}
         >
-          Senior Pre-Sales Engineer &amp; Solutions Architect
+          Senior Pre-Sales Engineer & Solutions Architect
         </p>
 
         <p
@@ -47,7 +47,7 @@ export default function Home() {
             lineHeight: 1.6,
           }}
         >
-          Cloud &amp; Edge Platforms · Distributed &amp; Real-Time Systems · Secure
+          Cloud & Edge Platforms · Distributed & Real-Time Systems · Secure
           Connectivity · AI-Ready Solutions
         </p>
 
@@ -59,7 +59,7 @@ export default function Home() {
             fontStyle: "italic",
           }}
         >
-          Building applied AI &amp; systems experiments
+          Building applied AI & systems experiments
         </p>
 
         <a
@@ -77,12 +77,8 @@ export default function Home() {
             opacity: 0.85,
             transition: "opacity 0.2s ease",
           }}
-          onMouseEnter={(e) =>
-            (e.currentTarget.style.opacity = "1")
-          }
-          onMouseLeave={(e) =>
-            (e.currentTarget.style.opacity = "0.85")
-          }
+          onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
+          onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.85")}
         >
           Connect on LinkedIn
         </a>
