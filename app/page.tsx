@@ -36,7 +36,7 @@ export default function Home() {
             marginBottom: "8px",
           }}
         >
-          Senior Pre-Sales Engineer & Solutions Architect
+          Senior Pre-Sales Engineer &amp; Solutions Architect
         </p>
 
         <p
