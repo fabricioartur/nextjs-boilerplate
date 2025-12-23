@@ -15,7 +15,7 @@ export default function Home() {
       <section
         style={{
           textAlign: "center",
-          maxWidth: "800px",
+          maxWidth: "900px",
           padding: "0 24px",
         }}
       >
@@ -31,29 +31,21 @@ export default function Home() {
 
         <p
           style={{
-            fontSize: "1.1rem",
+            fontSize: "1.05rem",
             opacity: 0.85,
-            marginBottom: "8px",
+            marginBottom: "10px",
           }}
         >
-          Senior Pre-Sales Engineer &amp; Solutions Architect
-        </p>
-
-        <p
-          style={{
-            fontSize: "0.95rem",
-            opacity: 0.6,
-            marginBottom: "24px",
-          }}
-        >
-          Edge • Cloud • Security • AI-Ready Solutions
+          Senior Pre-Sales Engineer | Solutions Architect | Cloud & Edge Platforms
+          | Distributed & Real-Time Systems | Secure Connectivity | AI-Ready
+          Solutions
         </p>
 
         <p
           style={{
             fontSize: "0.9rem",
-            opacity: 0.5,
-            marginBottom: "32px",
+            opacity: 0.6,
+            marginBottom: "28px",
           }}
         >
           Portfolio coming soon ✨
@@ -64,13 +56,20 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
           style={{
+            display: "inline-block",
+            padding: "10px 18px",
+            border: "1px solid #fff",
+            borderRadius: "6px",
             fontSize: "0.9rem",
             color: "#fff",
-            textDecoration: "underline",
-            opacity: 0.8,
+            textDecoration: "none",
+            opacity: 0.85,
+            transition: "opacity 0.2s ease",
           }}
+          onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
+          onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.85")}
         >
-          LinkedIn
+          Connect on LinkedIn
         </a>
       </section>
     </main>
