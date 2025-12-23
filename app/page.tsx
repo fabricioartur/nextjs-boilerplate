@@ -75,10 +75,7 @@ export default function Home() {
             color: "#fff",
             textDecoration: "none",
             opacity: 0.85,
-            transition: "opacity 0.2s ease",
           }}
-          onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
-          onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.85")}
         >
           Connect on LinkedIn
         </a>
