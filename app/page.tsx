@@ -61,7 +61,7 @@ export default function Home() {
         </p>
 
         <a
-          href="https://www.linkedin.com/in/fabricioartur/"
+          href="https://www.linkedin.com/in/fartur/"
           target="_blank"
           rel="noopener noreferrer"
           style={{
