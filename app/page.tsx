@@ -6,24 +6,23 @@ export default function Home() {
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
+        padding: "24px",
         backgroundColor: "#000",
         color: "#fff",
-        fontFamily:
-          '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif',
       }}
     >
       <section
         style={{
           textAlign: "center",
-          maxWidth: "900px",
-          padding: "0 24px",
+          maxWidth: "960px",
+          width: "100%",
         }}
       >
         <h1
           style={{
-            fontSize: "2.5rem",
-            fontWeight: 500,
-            marginBottom: "16px",
+            fontSize: "clamp(2.2rem, 5vw, 3rem)",
+            fontWeight: 600,
+            marginBottom: "12px",
           }}
         >
           Fabricio Artur
@@ -31,43 +30,50 @@ export default function Home() {
 
         <p
           style={{
-            fontSize: "1.05rem",
+            fontSize: "clamp(1rem, 2.5vw, 1.2rem)",
             opacity: 0.85,
-            marginBottom: "10px",
+            marginBottom: "12px",
           }}
         >
-          Senior Pre-Sales Engineer | Solutions Architect | Cloud & Edge Platforms
-          | Distributed & Real-Time Systems | Secure Connectivity | AI-Ready
-          Solutions
+          Senior Pre-Sales Engineer &amp; Solutions Architect
+        </p>
+
+        <p
+          style={{
+            fontSize: "clamp(0.9rem, 2.2vw, 1rem)",
+            opacity: 0.6,
+            marginBottom: "28px",
+            lineHeight: 1.6,
+          }}
+        >
+          Cloud &amp; Edge Platforms · Distributed &amp; Real-Time Systems ·
+          Secure Connectivity · AI-Ready Solutions
         </p>
 
         <p
           style={{
             fontSize: "0.9rem",
-            opacity: 0.6,
-            marginBottom: "28px",
+            opacity: 0.5,
+            marginBottom: "32px",
           }}
         >
           Portfolio coming soon ✨
         </p>
 
         <a
-          href="https://www.linkedin.com/in/fartur/"
+          href="https://www.linkedin.com/in/fabricioartur/"
           target="_blank"
           rel="noopener noreferrer"
           style={{
             display: "inline-block",
-            padding: "10px 18px",
+            padding: "12px 20px",
             border: "1px solid #fff",
             borderRadius: "6px",
             fontSize: "0.9rem",
             color: "#fff",
             textDecoration: "none",
             opacity: 0.85,
-            transition: "opacity 0.2s ease",
           }}
-          onMouseEnter={(e) => (e.currentTarget.style.opacity = "1")}
-          onMouseLeave={(e) => (e.currentTarget.style.opacity = "0.85")}
         >
           Connect on LinkedIn
         </a>
