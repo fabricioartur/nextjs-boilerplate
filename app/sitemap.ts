@@ -1,13 +1,12 @@
-import type { MetadataRoute } from 'next'
+import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return [
     {
-      url: 'https://fabricioartur.com/',
+      url: 'https://fabricioartur.com',
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 1,
     },
   ]
 }
-
