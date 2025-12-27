@@ -14,7 +14,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Fabricio Artur — Pre-Sales Engineer, Solutions Architect & AI Strategist",
+  title: "Fabricio Puliafico Artur — Pre-Sales Engineer, Solutions Architect & AI Strategist",
   description:
     "Fabricio Artur is a Senior Pre-Sales Engineer and Solutions Architect specialized in cloud, edge, security, and AI-driven solutions. Bridging business, technology, and innovation with a Silicon Valley mindset.",
   keywords: [
