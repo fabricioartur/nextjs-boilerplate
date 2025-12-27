@@ -26,7 +26,7 @@ export default function Home() {
             lineHeight: 1.2,
           }}
         >
-          Fabricio Artur
+          Fabricio Puliafico Artur
         </h1>
 
         <p
